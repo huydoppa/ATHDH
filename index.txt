@@ -1,0 +1,51 @@
+
+1.1 Mô hình thác nước ( Waterfall model)
+    Mô tả
+    Đây được coi như là mô hình phát triển phần mềm đầu tiên được sử dụng.
+    Mô hình này áp dụng tuần tự các giai đoạn của phát triển phần mềm.
+    Đầu ra của giai đoạn trước là đầu vào của giai đoạn sau. Giai đoạn sau chỉ được thực hiện khi giai đoạn trước đã kết thúc. Đặc biệt không được quay lại giai đoạn trước để xử lý các yêu cầu khi muốn thay đổi.
+Phân tích mô hình
+    Requirement gathering: Thu thập và phân tích yêu cầu được ghi lại vào tài liệu đặc tả yêu cầu trong giai đoạn này.
+    System Analysis: Phân tích thiết kế hệ thống phần mềm, xác định kiến trúc hệ thống tổng thể của phần mềm.
+    Coding: Hệ thống được phát triển theo từng unit và được tích hợp trong giai đoạn tiếp theo. Mỗi Unit được phát triển và kiểm thử bởi dev được gọi là Unit Test.
+    Testing: Cài đặt và kiểm thử phần mềm. Công việc chính của giai đoạn này là kiểm tra và sửa tất cả những lỗi tìm được sao cho phần mềm hoạt động chính xác và đúng theo tài liệu đặc tả yêu cầu.
+    Implementation: Triển khai hệ thống trong môi trường khách hàng và đưa ra thị trường.
+    Operations and Maintenance: Bảo trì hệ thống khi có bất kỳ thay đổi nào từ phía khách hàng, người sử dụng.
+Ứng dụng
+Mô hình thường được áp dụng cho các dự án phần mềm như sau:
+    Các dự án nhỏ , ngắn hạn.
+    Các dự án có ít thay đổi về yêu cầu và không có những yêu cầu không rõ ràng.
+1.6 Mô hình chữ V( V model)
+    Mô tả
+    Mô hình chữ V là một phần mở rộng của mô hình thác nước và được dựa trên sự kết hợp của một giai đoạn thử nghiệm cho từng giai đoạn phát triển tương ứng. Đây là một mô hình có tính kỷ luật cao và giai đoạn tiếp theo chỉ bắt đầu sau khi hoàn thành giai đoạn trước.
+    Với V model thì công việc test được tham gia ngay từ đầu.
+Ứng dụng
+    Yêu cầu được xác định rõ ràng.
+    Xác định sản phẩm ổn định.
+    Công nghệ không thay đổi và được hiểu rõ bởi nhóm dự án.
+    Không có yêu cầu không rõ ràng hoặc không xác định.
+    Dự án ngắn.
+1.5 Mô hình tăng trưởng
+    Mô tả
+    Spec được chia thành nhiều phần.
+    Chu kỳ được chia thành các module nhỏ, dễ quản lý.
+    Mỗi module sẽ đi qua các yêu cầu về thiết kế, thực hiện, … như 1 vòng đời phát triển thông thường.
+Ứng dụng
+    Áp dụng cho những dự án có yêu cầu đã được mô tả, định nghĩa và hiểu một cách rõ ràng.
+    Khách hàng có nhu cầu về sản phẩm sớm.
+1.6 Mô hình xoắn ốc
+    Mô tả
+    Là mô hình kết hợp giữa các tính năng của mô hình prototyping và mô hình thác nước.
+    Mô hình xoắn ốc được ưa chuộng cho các dự án lớn, đắt tiền và phức tạp.
+    Mô hình này sử dụng những giai đoạn tương tự như mô hình thác nước, về thứ tự, plan, đánh giá rủi ro, …
+Phân tích mô hình
+Các pha trong quy trình phát triển xoắn ốc bao gồm:
+    Objective identification- Thiết lập mục tiêu: xác định mục tiêu, đối tượng cho từng pha của dự án.
+    Alternate evaluation- Đánh giá và giảm thiểu rủi ro: đánh giá rủi ro và thực hiện các hành động để giảm thiểu rủi ro. 
+    Product development- Phát triển sản phẩm: Lựa chọn mô hình phù hợp để phát triển hệ thống. 
+    Next phase planning- Lập kế hoạch: đánh giá dự án và lập kế hoạch cho pha tiếp theo. 
+<br>
+Một quy trình phần mềm là quá trình phân chia các công việc phát triển thành các giai đoạn khác nhau.  Quy trình phần mềm là trọng tâm để phát triển một hệ thống thông tin hiệu quả
+kết hợp chiến lược phát triển bao gồm quy trình, phương pháp và công cụ.  chiến lược này được gọi là mô hình quy trình phần mềm hoặc Mô hình kỹ thuật phần mềm
+
+
